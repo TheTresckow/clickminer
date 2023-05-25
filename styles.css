@@ -1,0 +1,35 @@
+button {
+    border-radius: 80px;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#startLogging {
+    background-color: #028850;
+    color: white;
+}
+
+#startLogging:hover {
+    background-color: #0A7CAE;
+}
+
+#stopLogging {
+    background-color: #FFB200;
+    color: white;
+}
+
+#stopLogging:hover {
+    background-color: #0A7CAE;
+}
+
+#status {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+}

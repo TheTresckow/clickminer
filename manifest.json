@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "Taskminer",
+    "version": "1.0",
+    "author": "Trond v. Stern",
+    "permissions": ["storage"],
+    "browser_action": {
+        "default_popup": "index.html"
+    },
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["content.js"]
+        }
+    ]
+}
